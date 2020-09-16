@@ -17,10 +17,8 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>rasa_notes</title>
-    <url>/2020/09/15/rasa-notes/</url>
-    <content><![CDATA[]]></content>
+      <tags>
+        <tag>doc</tag>
+      </tags>
   </entry>
 </search>
