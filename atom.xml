@@ -3,11 +3,11 @@
   <title>XiaoQifeng&#39;s Blog</title>
   
   <subtitle>stay hungry, stay foolish</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://alchemist1024.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://alchemist1024.github.io/"/>
   <updated>2020-09-15T07:59:14.139Z</updated>
-  <id>http://example.com/</id>
+  <id>https://alchemist1024.github.io/</id>
   
   <author>
     <name>XiaoQifeng</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2020/09/16/hello-world/"/>
-    <id>http://example.com/2020/09/16/hello-world/</id>
+    <link href="https://alchemist1024.github.io/2020/09/16/hello-world/"/>
+    <id>https://alchemist1024.github.io/2020/09/16/hello-world/</id>
     <published>2020-09-16T02:44:49.798Z</published>
     <updated>2020-09-15T07:59:14.139Z</updated>
     
@@ -38,8 +38,8 @@
   
   <entry>
     <title>rasa_notes</title>
-    <link href="http://example.com/2020/09/15/rasa-notes/"/>
-    <id>http://example.com/2020/09/15/rasa-notes/</id>
+    <link href="https://alchemist1024.github.io/2020/09/15/rasa-notes/"/>
+    <id>https://alchemist1024.github.io/2020/09/15/rasa-notes/</id>
     <published>2020-09-15T07:59:53.000Z</published>
     <updated>2020-09-15T07:59:53.915Z</updated>
     
