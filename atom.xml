@@ -6,7 +6,7 @@
   <link href="https://alchemist1024.github.io/atom.xml" rel="self"/>
   
   <link href="https://alchemist1024.github.io/"/>
-  <updated>2020-09-16T09:50:10.708Z</updated>
+  <updated>2020-09-16T09:39:25.576Z</updated>
   <id>https://alchemist1024.github.io/</id>
   
   <author>
@@ -15,30 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>blog introduction</title>
-    <link href="https://alchemist1024.github.io/2020/09/15/blog/"/>
-    <id>https://alchemist1024.github.io/2020/09/15/blog/</id>
-    <published>2020-09-15T07:59:53.000Z</published>
-    <updated>2020-09-16T09:50:10.708Z</updated>
-    
-    <content type="html"><![CDATA[<p>本博客用来记录一些学习笔记和工作中遇到的坑，写博客纯属娱乐。</p><p>写的东西不一定对，欢迎交流，轻喷。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;本博客用来记录一些学习笔记和工作中遇到的坑，写博客纯属娱乐。&lt;/p&gt;
-&lt;p&gt;写的东西不一定对，欢迎交流，轻喷。&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-    <category term="introdcution" scheme="https://alchemist1024.github.io/tags/introdcution/"/>
-    
-  </entry>
   
   <entry>
     <title>rasa_notes</title>
@@ -59,6 +35,30 @@
     
     
     <category term="QA" scheme="https://alchemist1024.github.io/tags/QA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Introduction</title>
+    <link href="https://alchemist1024.github.io/2020/09/15/blog/"/>
+    <id>https://alchemist1024.github.io/2020/09/15/blog/</id>
+    <published>2020-09-15T07:59:53.000Z</published>
+    <updated>2020-09-16T11:20:26.198Z</updated>
+    
+    <content type="html"><![CDATA[<p>本博客用来记录一些学习笔记和工作中遇到的坑，写博客纯属娱乐。</p><p>写的东西不一定对，欢迎交流，轻喷。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;本博客用来记录一些学习笔记和工作中遇到的坑，写博客纯属娱乐。&lt;/p&gt;
+&lt;p&gt;写的东西不一定对，欢迎交流，轻喷。&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="introdcution" scheme="https://alchemist1024.github.io/tags/introdcution/"/>
     
   </entry>
   
