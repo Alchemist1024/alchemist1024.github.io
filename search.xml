@@ -1,23 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>Introduction</title>
-    <url>/2020/09/15/blog/</url>
-    <content><![CDATA[<p>本博客用来记录一些学习笔记和工作中遇到的坑，写博客纯属娱乐。</p>
-<p>写的东西不一定对，欢迎交流，轻喷。</p>
-]]></content>
-      <tags>
-        <tag>introdcution</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>rasa_notes</title>
-    <url>/2020/09/15/rasa_notes/</url>
-    <content><![CDATA[<h1 id="Overview-of-Rasa"><a href="#Overview-of-Rasa" class="headerlink" title="Overview of Rasa"></a>Overview of Rasa</h1><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    print(<span class="string">&#x27;hello world&#x27;</span>)</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <tags>
-        <tag>QA</tag>
-      </tags>
-  </entry>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Introduction</title>
+      <link href="2020/09/15/blog/"/>
+      <url>2020/09/15/blog/</url>
+      
+        <content type="html"><![CDATA[<p>本博客用来记录一些学习笔记和工作中遇到的坑，写博客纯属娱乐。</p><p>写的东西不一定对，欢迎交流，轻喷。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> introdcution </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>rasa_notes</title>
+      <link href="2020/09/15/rasa_notes/"/>
+      <url>2020/09/15/rasa_notes/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Overview-of-Rasa"><a href="#Overview-of-Rasa" class="headerlink" title="Overview of Rasa"></a>Overview of Rasa</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    print(<span class="string">&#x27;hello world&#x27;</span>)</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> QA </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
