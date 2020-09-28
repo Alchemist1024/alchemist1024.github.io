@@ -6,7 +6,7 @@
   <link href="https://alchemist1024.github.io/atom.xml" rel="self"/>
   
   <link href="https://alchemist1024.github.io/"/>
-  <updated>2020-09-28T07:17:12.270Z</updated>
+  <updated>2020-09-16T11:20:26.198Z</updated>
   <id>https://alchemist1024.github.io/</id>
   
   <author>
@@ -15,28 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>rasa_notes</title>
-    <link href="https://alchemist1024.github.io/2020/09/15/rasa_notes/"/>
-    <id>https://alchemist1024.github.io/2020/09/15/rasa_notes/</id>
-    <published>2020-09-15T07:59:53.000Z</published>
-    <updated>2020-09-28T07:17:12.270Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Overview-of-Rasa"><a href="#Overview-of-Rasa" class="headerlink" title="Overview of Rasa"></a>Overview of Rasa</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    print(<span class="string">&#x27;hello world&#x27;</span>)</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;Overview-of-Rasa&quot;&gt;&lt;a href=&quot;#Overview-of-Rasa&quot; class=&quot;headerlink&quot; title=&quot;Overview of Rasa&quot;&gt;&lt;/a&gt;Overview of Rasa&lt;/h1&gt;&lt;figure class=&quot;hi</summary>
-      
-    
-    
-    
-    
-    <category term="QA" scheme="https://alchemist1024.github.io/tags/QA/"/>
-    
-  </entry>
   
   <entry>
     <title>Introduction</title>
@@ -59,6 +37,28 @@
     
     
     <category term="introdcution" scheme="https://alchemist1024.github.io/tags/introdcution/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>rasa_notes</title>
+    <link href="https://alchemist1024.github.io/2020/09/15/rasa_notes/"/>
+    <id>https://alchemist1024.github.io/2020/09/15/rasa_notes/</id>
+    <published>2020-09-15T07:59:53.000Z</published>
+    <updated>2020-09-28T07:17:12.270Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Overview-of-Rasa"><a href="#Overview-of-Rasa" class="headerlink" title="Overview of Rasa"></a>Overview of Rasa</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    print(<span class="string">&#x27;hello world&#x27;</span>)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Overview-of-Rasa&quot;&gt;&lt;a href=&quot;#Overview-of-Rasa&quot; class=&quot;headerlink&quot; title=&quot;Overview of Rasa&quot;&gt;&lt;/a&gt;Overview of Rasa&lt;/h1&gt;&lt;figure class=&quot;hi</summary>
+      
+    
+    
+    
+    
+    <category term="QA" scheme="https://alchemist1024.github.io/tags/QA/"/>
     
   </entry>
   
