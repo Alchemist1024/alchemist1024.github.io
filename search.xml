@@ -80,8 +80,12 @@
 <p><a href="#https://zhuanlan.zhihu.com/p/87344422">Conda环境迁移</a></p>
 <p><a href="#http://pre.tir.tw/008/blog/output/conda_yml.html">conda套件管理environment.yml</a></p>
 ]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
       <tags>
-        <tag>杂记</tag>
+        <tag>conda</tag>
+        <tag>虚拟环境</tag>
       </tags>
   </entry>
   <entry>
@@ -91,8 +95,8 @@
 <p>督促自己在学习知识的时候保持<code>stay hungry, stay foolish</code>的心态。</p>
 <p>督促自己在写代码的时候保持<code>talk is cheap, show me the code</code>的心态。</p>
 ]]></content>
-      <tags>
-        <tag>杂记</tag>
-      </tags>
+      <categories>
+        <category>杂记</category>
+      </categories>
   </entry>
 </search>
