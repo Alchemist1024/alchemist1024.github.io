@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>开始写博客</title>
-    <url>/2020/07/15/%E5%BC%80%E5%8D%9A/</url>
-    <content><![CDATA[<p>本博客用来记录一些学习笔记和工作中遇到的坑。</p>
-<p>督促自己在学习知识的时候保持<code>stay hungry, stay foolish</code>的心态。</p>
-<p>督促自己在写代码的时候保持<code>talk is cheap, show me the code</code>的心态。</p>
-]]></content>
-      <categories>
-        <category>杂记</category>
-      </categories>
-  </entry>
-  <entry>
     <title>conda使用教程</title>
     <url>/2020/10/19/conda%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</url>
     <content><![CDATA[<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><ul>
@@ -98,5 +87,16 @@
         <tag>conda</tag>
         <tag>虚拟环境</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>开始写博客</title>
+    <url>/2020/07/15/%E5%BC%80%E5%8D%9A/</url>
+    <content><![CDATA[<p>本博客用来记录一些学习笔记和工作中遇到的坑。</p>
+<p>督促自己在学习知识的时候保持<code>stay hungry, stay foolish</code>的心态。</p>
+<p>督促自己在写代码的时候保持<code>talk is cheap, show me the code</code>的心态。</p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
   </entry>
 </search>
