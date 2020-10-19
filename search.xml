@@ -10,6 +10,8 @@
 <li>Conda可以构建不同的环境，同时可以对环境进行保存，加载和切换操作</li>
 <li>conda包和环境管理器包含在所有版本的Anaconda和Miniconda中</li>
 </ul>
+<a id="more"></a>
+
 <h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><ul>
 <li><p><strong>下载 (Linux 64位系统为例)</strong></p>
 <p><a href="https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh">https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh</a></p>
