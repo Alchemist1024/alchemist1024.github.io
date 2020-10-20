@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>开始写博客</title>
-    <url>/2020/07/15/%E5%BC%80%E5%8D%9A/</url>
-    <content><![CDATA[<p>本博客用来记录一些学习笔记和工作中遇到的坑。</p>
-<p><code>stay hungry, stay foolish</code></p>
-<p><code>talk is cheap, show me the code</code></p>
-<p>好了，第一篇文章就这样吧。</p>
-]]></content>
-      <categories>
-        <category>杂记</category>
-      </categories>
-  </entry>
-  <entry>
     <title>conda使用教程</title>
-    <url>/2020/10/20/conda%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</url>
+    <url>/2020/08/10/conda%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</url>
     <content><![CDATA[<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><ul>
 <li>开源包管理系统和环境管理系统 ，包括多种语言的包安装，运行，更新，删除，最重要的是可以解决包依赖问题</li>
 <li>支持语言包括 Python，R，Ruby，Lua，Scala，Java，JavaScript，C / C ++，FORTRAN</li>
@@ -99,5 +87,17 @@
         <tag>conda</tag>
         <tag>虚拟环境</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>开始写博客</title>
+    <url>/2020/07/15/%E5%BC%80%E5%8D%9A/</url>
+    <content><![CDATA[<p>本博客用来记录一些学习笔记和工作中遇到的坑。</p>
+<p><code>stay hungry, stay foolish</code></p>
+<p><code>talk is cheap, show me the code</code></p>
+<p>好了，第一篇文章就这样吧。</p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
   </entry>
 </search>
