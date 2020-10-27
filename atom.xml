@@ -6,7 +6,7 @@
   <link href="https://alchemist1024.github.io/atom.xml" rel="self"/>
   
   <link href="https://alchemist1024.github.io/"/>
-  <updated>2020-10-27T09:20:20.213Z</updated>
+  <updated>2020-10-27T09:28:16.931Z</updated>
   <id>https://alchemist1024.github.io/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>test</title>
+    <link href="https://alchemist1024.github.io/2020/10/27/test/"/>
+    <id>https://alchemist1024.github.io/2020/10/27/test/</id>
+    <published>2020-10-27T09:27:23.000Z</published>
+    <updated>2020-10-27T09:28:16.931Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="test/test.jpg"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;test/test.jpg&quot;&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>中文文本纠错</title>
     <link href="https://alchemist1024.github.io/2020/09/27/%E4%B8%AD%E6%96%87%E6%96%87%E6%9C%AC%E7%BA%A0%E9%94%99/"/>
     <id>https://alchemist1024.github.io/2020/09/27/%E4%B8%AD%E6%96%87%E6%96%87%E6%9C%AC%E7%BA%A0%E9%94%99/</id>
     <published>2020-09-27T09:01:17.000Z</published>
-    <updated>2020-10-27T09:20:20.213Z</updated>
+    <updated>2020-10-27T09:28:34.068Z</updated>
     
     <content type="html"><![CDATA[<img src="中文文本纠错/test.jpg" style="zoom:50%;" />]]></content>
     
