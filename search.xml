@@ -89,18 +89,6 @@
       </tags>
   </entry>
   <entry>
-    <title>开始写博客</title>
-    <url>/2020/07/15/%E5%BC%80%E5%8D%9A/</url>
-    <content><![CDATA[<p>本博客用来记录一些学习笔记和工作中遇到的坑。</p>
-<p><code>stay hungry, stay foolish</code></p>
-<p><code>talk is cheap, show me the code</code></p>
-<p>好了，第一篇文章就这样吧。</p>
-]]></content>
-      <categories>
-        <category>杂记</category>
-      </categories>
-  </entry>
-  <entry>
     <title>python规范</title>
     <url>/2020/08/15/python%E8%A7%84%E8%8C%83/</url>
     <content><![CDATA[<h2 id="注释规范"><a href="#注释规范" class="headerlink" title="注释规范"></a>注释规范</h2><p>写代码是一门艺术，注释可以让你的代码很漂亮。</p>
@@ -250,5 +238,17 @@
       <tags>
         <tag>递归 栈</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>开始写博客</title>
+    <url>/2020/07/15/%E5%BC%80%E5%8D%9A/</url>
+    <content><![CDATA[<p>本博客用来记录一些学习笔记和工作中遇到的坑。</p>
+<p><code>stay hungry, stay foolish</code></p>
+<p><code>talk is cheap, show me the code</code></p>
+<p>好了，第一篇文章就这样吧。</p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
   </entry>
 </search>
