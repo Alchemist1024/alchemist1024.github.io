@@ -89,6 +89,56 @@
       </tags>
   </entry>
   <entry>
+    <title>开始写博客</title>
+    <url>/2020/07/15/%E5%BC%80%E5%8D%9A/</url>
+    <content><![CDATA[<p>本博客用来记录一些学习笔记和工作中遇到的坑。</p>
+<p><code>stay hungry, stay foolish</code></p>
+<p><code>talk is cheap, show me the code</code></p>
+<p>好了，第一篇文章就这样吧。</p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>有趣的算法</title>
+    <url>/2020/08/25/%E6%9C%89%E8%B6%A3%E7%9A%84%E7%AE%97%E6%B3%95/</url>
+    <content><![CDATA[<h1 id="递归栈图解"><a href="#递归栈图解" class="headerlink" title="递归栈图解"></a>递归栈图解</h1><p><strong>递归</strong>：”<strong>递</strong>“:传递，“<strong>归</strong>”：回归。</p>
+<p>简单的解释：方法内调用它本身。</p>
+<p>传递和回归必须存在一个临界点：比如最内层被调用的方法内给了一个返回值，或者是最内层被调用方法结束，然后将结果返回给上一层的方法.,然后一层层结束，一层层返回。</p>
+<p>它的使用场景，比如会用递归来解决斐波那契数列、阶乘等的问题。</p>
+<a id="more"></a>
+
+<p>例子：给一个整数<code>n</code>：求<code>1+2+3+.....+n</code>的值</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">add</span>(<span class="params">n</span>):</span></span><br><span class="line">    <span class="keyword">if</span> n == <span class="number">1</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">return</span> add(n<span class="number">-1</span>) + n</span><br><span class="line">    </span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    add(<span class="number">4</span>)</span><br></pre></td></tr></table></figure>
+
+<p>首先是执行<code>main()</code>方法，<code>main()</code>方法进栈，然后调用<code>main()</code>方法中的<code>add(4)</code>方法，<code>add(4)</code>方法进栈。当执行到<code>return add(3)+4</code>时，<code>add(4)</code>方法会调用<code>add(3)</code>方法，<code>add(3)</code>方法进展，然后依次递归调用，直到<code>add(1)</code>方法进栈为止。</p>
+<img src="/2020/08/25/%E6%9C%89%E8%B6%A3%E7%9A%84%E7%AE%97%E6%B3%95/图片1.png" alt="图片1" style="zoom: 67%;">
+
+
+
+<p>当执行<code>add(1)</code>方法时，会首先进行判断<code>if(n==1)</code>，然后满足条件，该方法返回一个整数 <code>1</code>（<strong>临界点</strong>），（这个返回值是返回给<code>add(2)</code>方法的），然后<code>add(1)</code>方法执行完毕，出栈。</p>
+<img src="/2020/08/25/%E6%9C%89%E8%B6%A3%E7%9A%84%E7%AE%97%E6%B3%95/图片2.png" alt="图片2" style="zoom:67%;">
+
+<p>此时<code>add(2)</code>方法接收了<code>add(1)</code>方法的返回值，执行<code>add(2)</code>方法，最后走到<code>return add(1)+2==return 1+2</code>  ,<code>add(2)</code>方法执行完毕，将返回值返回给<code>add(3)</code>方法，出栈。</p>
+<p>然后依次执行<code>add(3)、add(4)</code>。。依次出栈。具体步骤看下图:</p>
+<img src="/2020/08/25/%E6%9C%89%E8%B6%A3%E7%9A%84%E7%AE%97%E6%B3%95/图片3.png" alt="图片3" style="zoom: 67%;">
+
+<p><code>add(4)</code>方法接受到前几个递归方法执行完毕后传来的值：<code>1+2+3</code>，执行它本身，<code>return add(3)+4==return 1+2+3+4</code>，将该结果返回给<code>main()</code>方法，<code>add(4)</code>出栈。递归结束。</p>
+<img src="/2020/08/25/%E6%9C%89%E8%B6%A3%E7%9A%84%E7%AE%97%E6%B3%95/图片4.png" alt="图片4" style="zoom:67%;">
+
+
+
+<p><code>main()</code>方法接受到了<code>add(4)</code>方法返回值，<code>10</code>，打印输出，<code>main()</code>方法结束，出栈。</p>
+]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+      <tags>
+        <tag>递归 栈</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>python规范</title>
     <url>/2020/08/15/python%E8%A7%84%E8%8C%83/</url>
     <content><![CDATA[<h2 id="注释规范"><a href="#注释规范" class="headerlink" title="注释规范"></a>注释规范</h2><p>写代码是一门艺术，注释可以让你的代码很漂亮。</p>
@@ -199,56 +249,6 @@
       </categories>
       <tags>
         <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>开始写博客</title>
-    <url>/2020/07/15/%E5%BC%80%E5%8D%9A/</url>
-    <content><![CDATA[<p>本博客用来记录一些学习笔记和工作中遇到的坑。</p>
-<p><code>stay hungry, stay foolish</code></p>
-<p><code>talk is cheap, show me the code</code></p>
-<p>好了，第一篇文章就这样吧。</p>
-]]></content>
-      <categories>
-        <category>杂记</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>有趣的算法</title>
-    <url>/2020/08/25/%E6%9C%89%E8%B6%A3%E7%9A%84%E7%AE%97%E6%B3%95/</url>
-    <content><![CDATA[<h1 id="递归栈图解"><a href="#递归栈图解" class="headerlink" title="递归栈图解"></a>递归栈图解</h1><p><strong>递归</strong>：”<strong>递</strong>“:传递，“<strong>归</strong>”：回归。</p>
-<p>简单的解释：方法内调用它本身。</p>
-<p>传递和回归必须存在一个临界点：比如最内层被调用的方法内给了一个返回值，或者是最内层被调用方法结束，然后将结果返回给上一层的方法.,然后一层层结束，一层层返回。</p>
-<p>它的使用场景，比如会用递归来解决斐波那契数列、阶乘等的问题。</p>
-<a id="more"></a>
-
-<p>例子：给一个整数<code>n</code>：求<code>1+2+3+.....+n</code>的值</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">add</span>(<span class="params">n</span>):</span></span><br><span class="line">    <span class="keyword">if</span> n == <span class="number">1</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">return</span> add(n<span class="number">-1</span>) + n</span><br><span class="line">    </span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    add(<span class="number">4</span>)</span><br></pre></td></tr></table></figure>
-
-<p>首先是执行<code>main()</code>方法，<code>main()</code>方法进栈，然后调用<code>main()</code>方法中的<code>add(4)</code>方法，<code>add(4)</code>方法进栈。当执行到<code>return add(3)+4</code>时，<code>add(4)</code>方法会调用<code>add(3)</code>方法，<code>add(3)</code>方法进展，然后依次递归调用，直到<code>add(1)</code>方法进栈为止。</p>
-<img src="/2020/08/25/%E6%9C%89%E8%B6%A3%E7%9A%84%E7%AE%97%E6%B3%95/图片1.png" alt="图片1" style="zoom: 67%;">
-
-
-
-<p>当执行<code>add(1)</code>方法时，会首先进行判断<code>if(n==1)</code>，然后满足条件，该方法返回一个整数 <code>1</code>（<strong>临界点</strong>），（这个返回值是返回给<code>add(2)</code>方法的），然后<code>add(1)</code>方法执行完毕，出栈。</p>
-<img src="/2020/08/25/%E6%9C%89%E8%B6%A3%E7%9A%84%E7%AE%97%E6%B3%95/图片2.png" alt="图片2" style="zoom:67%;">
-
-<p>此时<code>add(2)</code>方法接收了<code>add(1)</code>方法的返回值，执行<code>add(2)</code>方法，最后走到<code>return add(1)+2==return 1+2</code>  ,<code>add(2)</code>方法执行完毕，将返回值返回给<code>add(3)</code>方法，出栈。</p>
-<p>然后依次执行<code>add(3)、add(4)</code>。。依次出栈。具体步骤看下图:</p>
-<img src="/2020/08/25/%E6%9C%89%E8%B6%A3%E7%9A%84%E7%AE%97%E6%B3%95/图片3.png" alt="图片3" style="zoom: 67%;">
-
-<p><code>add(4)</code>方法接受到前几个递归方法执行完毕后传来的值：<code>1+2+3</code>，执行它本身，<code>return add(3)+4==return 1+2+3+4</code>，将该结果返回给<code>main()</code>方法，<code>add(4)</code>出栈。递归结束。</p>
-<img src="/2020/08/25/%E6%9C%89%E8%B6%A3%E7%9A%84%E7%AE%97%E6%B3%95/图片4.png" alt="图片4" style="zoom:67%;">
-
-
-
-<p><code>main()</code>方法接受到了<code>add(4)</code>方法返回值，<code>10</code>，打印输出，<code>main()</code>方法结束，出栈。</p>
-]]></content>
-      <categories>
-        <category>算法</category>
-      </categories>
-      <tags>
-        <tag>递归 栈</tag>
       </tags>
   </entry>
 </search>
