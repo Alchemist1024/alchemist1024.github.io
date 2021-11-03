@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>XiaoQifeng&#39;s Blog</title>
+  
+  <subtitle>stay hungry, stay foolish</subtitle>
+  <link href="https://alchemist1024.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://alchemist1024.github.io/"/>
+  <updated>2021-06-29T03:02:12.000Z</updated>
+  <id>https://alchemist1024.github.io/</id>
+  
+  <author>
+    <name>XiaoQifeng</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>开博语</title>
+    <link href="https://alchemist1024.github.io/2020/07/15/%E5%BC%80%E5%8D%9A/"/>
+    <id>https://alchemist1024.github.io/2020/07/15/%E5%BC%80%E5%8D%9A/</id>
+    <published>2020-07-15T09:59:46.000Z</published>
+    <updated>2021-06-29T03:02:12.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>常言道“好记性不如烂笔头”，自认为不是一个聪明的人，所以开此博客记录学习笔记及生活趣事。希望自己在以后的学习过程中保持“stay hungry, stay foolish”的求知精神，同时保持“talk is cheap, show me the code”的理念。</p><p>最最最重要的当然是多交朋友啦<code>(*^_^*)</code>。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;常言道“好记性不如烂笔头”，自认为不是一个聪明的人，所以开此博客记录学习笔记及生活趣事。希望自己在以后的学习过程中保持“stay hungry, stay foolish”的求知精神，同时保持“talk is cheap, show me the code”的理念。&lt;/p&gt;</summary>
+      
+    
+    
+    
+    <category term="杂记" scheme="https://alchemist1024.github.io/categories/%E6%9D%82%E8%AE%B0/"/>
+    
+    
+  </entry>
+  
+</feed>
