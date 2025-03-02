@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>XiaoQifeng&#39;s Blog</title>
+  
+  <subtitle>stay hungry, stay foolish</subtitle>
+  <link href="https://alchemist1024.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://alchemist1024.github.io/"/>
+  <updated>2025-03-02T10:31:26.535Z</updated>
+  <id>https://alchemist1024.github.io/</id>
+  
+  <author>
+    <name>XiaoQifeng</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>给自己的建议</title>
+    <link href="https://alchemist1024.github.io/2025/03/02/%E4%BA%BA%E7%94%9F%E5%BB%BA%E8%AE%AE/"/>
+    <id>https://alchemist1024.github.io/2025/03/02/%E4%BA%BA%E7%94%9F%E5%BB%BA%E8%AE%AE/</id>
+    <published>2025-03-02T09:59:46.000Z</published>
+    <updated>2025-03-02T10:31:26.535Z</updated>
+    
+    <content type="html"><![CDATA[<p>1.迷茫就去读书</p><p>2.瞎想就去跑步</p><p>3.能被利用说明还有价值</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;1.迷茫就去读书&lt;/p&gt;
+&lt;p&gt;2.瞎想就去跑步&lt;/p&gt;
+&lt;p&gt;3.能被利用说明还有价值&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="杂记" scheme="https://alchemist1024.github.io/categories/%E6%9D%82%E8%AE%B0/"/>
+    
+    
+  </entry>
+  
+</feed>
